@@ -102,6 +102,10 @@ nav a:hover, nav a[aria-current] { text-decoration: underline; }
 .steps, .sources ul { padding-inline-start: 1.4em; margin-block: .3rem 0; }
 .steps li + li, .sources li + li { margin-block-start: .8rem; }
 .steps li::marker, .sources li::marker { color: #507452; }
+.guide-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-block-start: 1.65rem; }
+.guide-gallery figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: .9rem; background: var(--white); }
+.guide-gallery img { display: block; width: 100%; height: auto; background: var(--mint); }
+.guide-gallery figcaption { padding: .7rem .85rem .85rem; color: var(--muted); font-size: 1rem; line-height: 1.5; }
 .checklist, .help { border-radius: .9rem; padding: clamp(1rem, 3vw, 1.6rem); border: 1px solid var(--line); background: var(--white); }
 .check-note { color: var(--muted); font-size: 1rem; }
 .check-items { margin-block-start: .55rem; }
@@ -127,6 +131,7 @@ nav a:hover, nav a[aria-current] { text-decoration: underline; }
   .guide-search { flex-basis: auto; }
   .guide-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
   .guide-card a { padding: .85rem; }
+  .guide-gallery { grid-template-columns: 1fr; }
   .about { grid-template-columns: 1fr; margin-block-end: 2.5rem; }
   .footer-inner { align-items: flex-start; flex-direction: column; }
 }
@@ -144,6 +149,9 @@ nav a:hover, nav a[aria-current] { text-decoration: underline; }
   .guide-heading { padding: 0; background: white; }
   .guide-content { padding: 0; }
   .guide-content section { margin-block-start: 1rem; }
+  .guide-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-block-start: 1rem; }
+  .guide-gallery figure { break-inside: avoid; }
+  .guide-gallery img { max-height: 7rem; object-fit: contain; background: white; }
   .checklist, .help { break-inside: avoid; background: white; }
   h1, h2, h3 { break-after: avoid; }
   .sources a { overflow-wrap: anywhere; }
