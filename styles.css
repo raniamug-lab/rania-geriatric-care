@@ -50,7 +50,7 @@ nav a:hover, nav a[aria-current] { text-decoration: underline; }
 .primary-button:hover { background: #18382a; }
 .hero-signature { display: flex; align-items: center; gap: .75rem; margin-block-start: 1.5rem; font-size: 1rem; line-height: 1.45; }
 .hero-signature > span { height: 2.25rem; width: .2rem; background: #789372; border-radius: 99px; }
-.hero-photo { min-height: 22rem; background: #a6b39e url("family.webp") center 48% / cover no-repeat; }
+.hero-photo { min-height: 22rem; background: #a6b39e url("rania-and-older-woman.webp") center 48% / cover no-repeat; }
 .guide-section { padding-block: clamp(2.6rem, 6vw, 5rem) 3.6rem; }
 .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 1.45rem 2.5rem; margin-block-end: 1.4rem; }
 .section-heading h2, .about h2 { font-size: clamp(1.9rem, 3.35vw, 2.8rem); letter-spacing: -.04em; }
