@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="הדרכות בריאות בגיל המבוגר למבוגרים ולבני משפחותיהם, בהובלת ראניה מוגרבי, אחות מומחית קלינית בגריאטריה.">
+  <meta name="theme-color" content="#263d35">
+  <title>מזדקנים בטוב עם ראניה</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-definitions" aria-hidden="true"><symbol id="icon-brand" viewBox="0 0 24 24"><path d="M12 20v-7m0 2C5 15 3 10 4 5c5 0 8 3 8 8 0-5 3-8 8-8 1 5-1 10-8 10Z"/></symbol><symbol id="icon-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7M5 9v11h14V9m-10 5 2 2 4-4"/></symbol><symbol id="icon-pill" viewBox="0 0 24 24"><path d="M8 20a4.2 4.2 0 0 1-4-6.5l7-9a4.2 4.2 0 1 1 6.7 5.1l-7 9A4.2 4.2 0 0 1 8 20Zm.2-10 6.6 5.2"/></symbol><symbol id="icon-food" viewBox="0 0 24 24"><path d="M3 12h18c0 4.8-4 8-9 8s-9-3.2-9-8Zm9 0V8c0-3 3-5 6-5 0 3-2 5-6 5m0 3c-4 0-6-2-6-5 3 0 6 2 6 5Z"/></symbol><symbol id="icon-brain" viewBox="0 0 24 24"><path d="M12 5a3 3 0 0 0-5-2 4 4 0 0 0-3 5 4 4 0 0 0-1 7 4 4 0 0 0 4 5 3 3 0 0 0 5-2V5Zm0 0a3 3 0 0 1 5-2 4 4 0 0 1 3 5 4 4 0 0 1 1 7 4 4 0 0 1-4 5 3 3 0 0 1-5-2m-8-10 3 1m13-1-3 1M7 20l1-3m9 3-1-3"/></symbol><symbol id="icon-move" viewBox="0 0 24 24"><circle cx="13" cy="4" r="2"/><path d="m6 11 3-3 4 1 3 4h4m-8-3-2 5-4 5m4-5 4 2 2 4"/></symbol><symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4 4"/></symbol><symbol id="icon-print" viewBox="0 0 24 24"><path d="M6 8V3h12v5m0 8h3V9H3v7h3m0-3h12v8H6z"/></symbol><symbol id="icon-share" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="18" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="m7 11 9-5m-9 7 9 5"/></symbol><symbol id="icon-link" viewBox="0 0 24 24"><path d="M9 15l6-6m-5-1 3-3a4 4 0 0 1 6 6l-3 3m-2 2-3 3a4 4 0 0 1-6-6l3-3"/></symbol><symbol id="icon-heart" viewBox="0 0 24 24"><path d="M20 5a5 5 0 0 0-8 2 5 5 0 0 0-8-2c-4 4 0 9 8 15 8-6 12-11 8-15Z"/><path d="M3 11h5l2-3 3 6 2-3h6"/></symbol></svg>
+  <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#home" class="brand"><span class="brand-mark"><svg aria-hidden="true" width="24" height="24"><use href="#icon-brand"></use></svg></span><span>מזדקנים בטוב <span class="brand-detail">עם ראניה</span></span></a>
+      <nav aria-label="ניווט ראשי">
+        <a href="#home" aria-current="location">בית</a>
+        <a href="#guides">הדרכות</a>
+        <a href="#about">אודות</a>
+      </nav>
+      <button class="text-size" type="button" aria-pressed="false" hidden><span aria-hidden="true">א<span>א</span></span> טקסט מוגדל</button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="home-view">
+      <section id="home" class="hero wrap" aria-labelledby="home-title">
+        <div class="hero-content">
+          <h1 id="home-title">מזדקנים בטוב <em>עם ראניה</em></h1>
+          <p>הדרכות מעשיות לחיים בטוחים ועצמאיים יותר בגיל המבוגר, לכם ולבני המשפחה.</p>
+          <a class="primary-button" href="#guides">לכל ההדרכות</a>
+          <div class="hero-signature"><span></span><p><strong>ראניה מוגרבי</strong><br>אחות מומחית קלינית בגריאטריה</p></div>
+        </div>
+        <div class="hero-photo" role="img" aria-label="אישה מבוגרת ובתה מחייכות זו אל זו ליד שולחן בבית"></div>
+      </section>
+      <section class="guide-section wrap" id="guides" aria-labelledby="guides-title">
+        <div class="section-heading">
+          <div><h2 id="guides-title">הדרכות לבריאות בגיל המבוגר</h2><p>בחרו את הנושא שמעסיק אתכם היום.</p></div>
+          <form class="guide-search" role="search" hidden>
+            <label for="guide-query">חיפוש בהדרכות</label>
+            <div class="search-field"><svg aria-hidden="true" width="24" height="24"><use href="#icon-search"></use></svg><input id="guide-query" type="search" placeholder="למשל תרופות או הליכון" autocomplete="off" aria-controls="guide-cards"></div>
+          </form>
+        </div>
+        <p id="search-status" class="search-status" role="status"></p>
+        <ul id="guide-cards" class="guide-cards">
+        <li class="guide-card" data-keywords="שיווי משקל הליכון מקל שטיח מדרגות רחצה">
+          <a href="#falls">
+            <span class="topic-icon sage"><svg aria-hidden="true" width="24" height="24"><use href="#icon-home"></use></svg></span>
+            <h3>מניעת נפילות</h3>
+            <p>צעדים פשוטים לבית בטוח יותר ולהליכה יציבה.</p>
+            <span class="card-link">לקריאת ההדרכה</span>
+          </a>
+        </li>
+        <li class="guide-card" data-keywords="רוקח כדורים מינון תופעות לוואי מרשם תרופה">
+          <a href="#medicines">
+            <span class="topic-icon peach"><svg aria-hidden="true" width="24" height="24"><use href="#icon-pill"></use></svg></span>
+            <h3>שימוש בטוח בתרופות</h3>
+            <p>איך עושים סדר בתרופות ומתי שואלים את הצוות המטפל.</p>
+            <span class="card-link">לקריאת ההדרכה</span>
+          </a>
+        </li>
+        <li class="guide-card" data-keywords="אוכל ארוחות חלבון תיאבון משקל מים שתיה">
+          <a href="#nutrition">
+            <span class="topic-icon gold"><svg aria-hidden="true" width="24" height="24"><use href="#icon-food"></use></svg></span>
+            <h3>תזונה ושתייה</h3>
+            <p>רעיונות לאכילה מגוונת ולשתייה לאורך היום.</p>
+            <span class="card-link">לקריאת ההדרכה</span>
+          </a>
+        </li>
+        <li class="guide-card" data-keywords="קוגניציה שכחה תזכורת בלבול דמנציה אלצהיימר">
+          <a href="#memory">
+            <span class="topic-icon lilac"><svg aria-hidden="true" width="24" height="24"><use href="#icon-brain"></use></svg></span>
+            <h3>זיכרון</h3>
+            <p>כלים להתארגנות ביום־יום וזיהוי שינויים שכדאי לבדוק.</p>
+            <span class="card-link">לקריאת ההדרכה</span>
+          </a>
+        </li>
+        <li class="guide-card" data-keywords="הליכה תפקוד ניידות כושר שיקום פעילות גופנית">
+          <a href="#independence">
+            <span class="topic-icon aqua"><svg aria-hidden="true" width="24" height="24"><use href="#icon-move"></use></svg></span>
+            <h3>שמירה על עצמאות</h3>
+            <p>הרגלים שעוזרים להמשיך לעשות את מה שחשוב לכם.</p>
+            <span class="card-link">לקריאת ההדרכה</span>
+          </a>
+        </li>
+        </ul>
+      </section>
+      <section class="about wrap" id="about" aria-labelledby="about-title">
+        <div class="about-identity">
+          <span class="about-mark"><svg aria-hidden="true" width="24" height="24"><use href="#icon-heart"></use></svg></span>
+          <h2 id="about-title">נעים להכיר, אני ראניה</h2>
+          <p>ראניה מוגרבי<br>אחות מומחית קלינית בגריאטריה</p>
+        </div>
+        <div class="about-content">
+          <h3>מה עושה אחות מומחית קלינית בגריאטריה?</h3>
+          <p>אני עובדת עם אנשים מבוגרים ובני משפחותיהם בקהילה ובמיון. בהערכה גריאטרית אני בודקת יחד איתם איך מתנהל היום־יום ומה השתנה, למשל בהליכה, בזיכרון, בתיאבון או בשימוש בתרופות.</p>
+          <p>מתוך השיחה וההערכה, אנחנו מזהים מה חשוב לאדם המבוגר ומה יכול לעזור לו. בשיתוף הצוות המטפל, אני מסייעת לגבש תוכנית טיפול ומעקב ומדריכה את המשפחה איך לתמוך בשגרה ובשמירה על עצמאות.</p>
+        </div>
+      </section>
+    </div>
+    <div class="guide-view">
+    <article class="guide" id="falls" aria-labelledby="falls-title">
+      <div class="guide-heading">
+        <a class="back-link" href="#guides">לכל ההדרכות</a>
+        <span class="topic-icon sage"><svg aria-hidden="true" width="24" height="24"><use href="#icon-home"></use></svg></span>
+        <h1 tabindex="-1" id="falls-title">מניעת נפילות</h1>
+        <p>אפשר להפחית את הסיכון לנפילות בעזרת התאמות בבית, תרגול מתאים ושיחה עם הצוות המטפל.</p>
+        <p class="guide-date">עודכן ב־<time datetime="2026-11-25">25 בנובמבר 2026</time></p>
+        <div class="guide-actions" hidden>
+          <button type="button" data-print><svg aria-hidden="true" width="24" height="24"><use href="#icon-print"></use></svg> הדפסה</button>
+          <a data-whatsapp href="https://wa.me/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="24" height="24"><use href="#icon-share"></use></svg> שיתוף בוואטסאפ</a>
+          <button type="button" data-copy><svg aria-hidden="true" width="24" height="24"><use href="#icon-link"></use></svg> העתקת קישור</button>
+          <p class="copy-status" role="status"></p>
+        </div>
+      </div>
+      <div class="guide-content">
+        <section><h2>מה אפשר לעשות</h2><ul class="steps"><li><strong>מפנים את המעברים</strong><p>מרחיקים כבלים וחפצים מהרצפה. מסירים שטיחונים רופפים או מקבעים אותם היטב.</p></li><li><strong>משפרים את התאורה</strong><p>מוודאים שמעברים ומדרגות מוארים, במיוחד בדרך מהמיטה לשירותים.</p></li><li><strong>בודקים נעליים ואביזרי הליכה</strong><p>בוחרים נעליים סגורות מאחור עם סוליה יציבה. אם משתמשים במקל או בהליכון, כדאי לוודא עם פיזיותרפיסט או פיזיותרפיסטית שהם מותאמים לכם.</p></li><li><strong>מתרגלים כוח ושיווי משקל</strong><p>מבקשים מהצוות המטפל הכוונה לפעילות שמתאימה ליכולת ולמצב הבריאותי.</p></li></ul></section>
+        <section class="checklist">
+          <h2>רשימת בדיקה</h2>
+          <p class="check-note">אפשר לסמן את מה שכבר עשיתם. הסימונים נשמרים בדפדפן הזה, כשהשמירה זמינה.</p>
+          <div class="check-items"><label><input type="checkbox" name="falls-1"><span>המעברים בבית פנויים מכבלים ומחפצים.</span></label><label><input type="checkbox" name="falls-2"><span>הדרך מהמיטה לשירותים מוארת גם בלילה.</span></label><label><input type="checkbox" name="falls-3"><span>יש לי נעליים יציבות שמתאימות להליכה.</span></label></div>
+        </section>
+        <section class="help"><h2>מתי לפנות לעזרה</h2><p>אם נפלתם, כמעט נפלתם או התחלתם להרגיש סחרחורת או חוסר יציבות, ספרו על כך לצוות המטפל ובקשו הערכה.</p></section>
+        <section class="sources"><h2>מקורות מקצועיים</h2><ul><li><a href="https://me.health.gov.il/older-adult/specialist-advice/fall-prevention/home-safety/safe-home/">משרד הבריאות – סביבה בטוחה בבית למניעת נפילות</a></li><li><a href="https://me.health.gov.il/older-adult/specialist-advice/fall-prevention/how-to-prevent-falls/tips/">משרד הבריאות – מניעת נפילות</a></li></ul></section>
+      </div>
+    </article>
+    <article class="guide" id="medicines" aria-labelledby="medicines-title">
+      <div class="guide-heading">
+        <a class="back-link" href="#guides">לכל ההדרכות</a>
+        <span class="topic-icon peach"><svg aria-hidden="true" width="24" height="24"><use href="#icon-pill"></use></svg></span>
+        <h1 tabindex="-1" id="medicines-title">שימוש בטוח בתרופות</h1>
+        <p>רשימת תרופות עדכנית והנחיות ברורות לנטילה מקלות על ההתנהלות ביום־יום ועוזרות למנוע טעויות.</p>
+        <p class="guide-date">עודכן ב־<time datetime="2026-11-25">25 בנובמבר 2026</time></p>
+        <div class="guide-actions" hidden>
+          <button type="button" data-print><svg aria-hidden="true" width="24" height="24"><use href="#icon-print"></use></svg> הדפסה</button>
+          <a data-whatsapp href="https://wa.me/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="24" height="24"><use href="#icon-share"></use></svg> שיתוף בוואטסאפ</a>
+          <button type="button" data-copy><svg aria-hidden="true" width="24" height="24"><use href="#icon-link"></use></svg> העתקת קישור</button>
+          <p class="copy-status" role="status"></p>
+        </div>
+      </div>
+      <div class="guide-content">
+        <section><h2>מה אפשר לעשות</h2><ul class="steps"><li><strong>מכינים רשימה אחת עדכנית</strong><p>רושמים שם, מינון וזמן נטילה. כוללים גם תרופות ללא מרשם ותוספי תזונה, ומביאים את הרשימה לביקורים רפואיים.</p></li><li><strong>מבררים איך ליטול כל תרופה</strong><p>שואלים את הרוקח או הרוקחת מתי לקחת אותה, אם יש הנחיות לגבי אוכל ומה לעשות אם שוכחים מנה.</p></li><li><strong>בודקים לפני שינוי</strong><p>מתייעצים עם הצוות המטפל לפני שמפסיקים טיפול או משנים מינון, ועם רוקח או רוקחת לפני שמוסיפים תרופה ללא מרשם או תוסף.</p></li></ul></section>
+        <section class="checklist">
+          <h2>רשימת בדיקה</h2>
+          <p class="check-note">אפשר לסמן את מה שכבר עשיתם. הסימונים נשמרים בדפדפן הזה, כשהשמירה זמינה.</p>
+          <div class="check-items"><label><input type="checkbox" name="medicines-1"><span>עדכנתי את רשימת התרופות והתוספים שלי.</span></label><label><input type="checkbox" name="medicines-2"><span>אני יודע או יודעת מתי לקחת כל תרופה.</span></label><label><input type="checkbox" name="medicines-3"><span>ביררתי מה לעשות אם שכחתי מנה.</span></label></div>
+        </section>
+        <section class="help"><h2>מתי לפנות לעזרה</h2><p>אם אחרי התחלת תרופה או שינוי מינון הופיעו בלבול, ישנוניות או סחרחורת, פנו לצוות המטפל בהקדם.</p></section>
+        <section class="sources"><h2>מקורות מקצועיים</h2><ul><li><a href="https://me.health.gov.il/older-adult/services-rights/living-with-a-condition/medicines/safe-use/">משרד הבריאות – נטילת תרופות בטוחה</a></li><li><a href="https://me.health.gov.il/older-adult/specialist-advice/fall-prevention/medical-factors/medications/">משרד הבריאות – תרופות המגבירות סיכון לנפילות</a></li></ul></section>
+      </div>
+    </article>
+    <article class="guide" id="nutrition" aria-labelledby="nutrition-title">
+      <div class="guide-heading">
+        <a class="back-link" href="#guides">לכל ההדרכות</a>
+        <span class="topic-icon gold"><svg aria-hidden="true" width="24" height="24"><use href="#icon-food"></use></svg></span>
+        <h1 tabindex="-1" id="nutrition-title">תזונה ושתייה</h1>
+        <p>אכילה מגוונת ושתייה מספקת עוזרות לשמור על הכוח ועל היכולת לבצע פעולות יום־יומיות.</p>
+        <p class="guide-date">עודכן ב־<time datetime="2026-11-25">25 בנובמבר 2026</time></p>
+        <div class="guide-actions" hidden>
+          <button type="button" data-print><svg aria-hidden="true" width="24" height="24"><use href="#icon-print"></use></svg> הדפסה</button>
+          <a data-whatsapp href="https://wa.me/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="24" height="24"><use href="#icon-share"></use></svg> שיתוף בוואטסאפ</a>
+          <button type="button" data-copy><svg aria-hidden="true" width="24" height="24"><use href="#icon-link"></use></svg> העתקת קישור</button>
+          <p class="copy-status" role="status"></p>
+        </div>
+      </div>
+      <div class="guide-content">
+        <section><h2>מה אפשר לעשות</h2><ul class="steps"><li><strong>משלבים מזונות מגוונים</strong><p>מוסיפים לארוחות ירקות, פירות ודגנים מלאים לפי היכולת. משלבים מקורות חלבון לאורך היום, כמו קטניות, יוגורט, ביצים או דגים.</p></li><li><strong>יוצרים תזכורות לשתייה</strong><p>מחזיקים מים בהישג יד ומשלבים שתייה בשגרה. אם קיבלתם הנחיה להגבלת נוזלים, פועלים לפי הכמות שהצוות המטפל קבע לכם.</p></li><li><strong>מתאימים את האוכל לצרכים שלכם</strong><p>אם קשה לקנות, להכין או לאכול ארוחות, אפשר לבקש עזרה מאדם קרוב. דיאטנית או דיאטן יכולים לסייע בהתאמה למצב הבריאותי ולהעדפות שלכם.</p></li></ul></section>
+        <section class="checklist">
+          <h2>רשימת בדיקה</h2>
+          <p class="check-note">אפשר לסמן את מה שכבר עשיתם. הסימונים נשמרים בדפדפן הזה, כשהשמירה זמינה.</p>
+          <div class="check-items"><label><input type="checkbox" name="nutrition-1"><span>יש בבית אוכל שקל לי להכין ולאכול.</span></label><label><input type="checkbox" name="nutrition-2"><span>בחרתי מקור חלבון שאפשר לשלב בארוחה.</span></label><label><input type="checkbox" name="nutrition-3"><span>קבעתי תזכורת לשתייה שמתאימה לי.</span></label></div>
+        </section>
+        <section class="help"><h2>מתי לפנות לעזרה</h2><p>אם ירדתם במשקל בלי שהתכוונתם, אם התיאבון ירד לאורך זמן או אם קשה לכם ללעוס או לבלוע, פנו למרפאה לבירור.</p></section>
+        <section class="sources"><h2>מקורות מקצועיים</h2><ul><li><a href="https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/dementia-and-alzheimer/dementia-nutrition/nutrition-guidelines/">משרד הבריאות – המלצות תזונה בגיל השלישי</a></li><li><a href="https://me.health.gov.il/older-adult/keep-me-healthy/rehabilitation/functional-decline/">משרד הבריאות – שינויים או ירידה בתפקוד</a></li></ul></section>
+      </div>
+    </article>
+    <article class="guide" id="memory" aria-labelledby="memory-title">
+      <div class="guide-heading">
+        <a class="back-link" href="#guides">לכל ההדרכות</a>
+        <span class="topic-icon lilac"><svg aria-hidden="true" width="24" height="24"><use href="#icon-brain"></use></svg></span>
+        <h1 tabindex="-1" id="memory-title">זיכרון</h1>
+        <p>שגרה מוכרת ועזרי זיכרון מקלים על ההתארגנות. כדאי לדבר עם רופא או רופאת המשפחה אם שמתם לב לשינוי שחוזר על עצמו.</p>
+        <p class="guide-date">עודכן ב־<time datetime="2026-11-25">25 בנובמבר 2026</time></p>
+        <div class="guide-actions" hidden>
+          <button type="button" data-print><svg aria-hidden="true" width="24" height="24"><use href="#icon-print"></use></svg> הדפסה</button>
+          <a data-whatsapp href="https://wa.me/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="24" height="24"><use href="#icon-share"></use></svg> שיתוף בוואטסאפ</a>
+          <button type="button" data-copy><svg aria-hidden="true" width="24" height="24"><use href="#icon-link"></use></svg> העתקת קישור</button>
+          <p class="copy-status" role="status"></p>
+        </div>
+      </div>
+      <div class="guide-content">
+        <section><h2>מה אפשר לעשות</h2><ul class="steps"><li><strong>משתמשים בעזרים נוחים</strong><p>בוחרים לוח שנה בולט או תזכורת בטלפון. מחזירים משקפיים, מפתחות ופריטים חשובים למקום קבוע.</p></li><li><strong>ממשיכים בפעילויות שאוהבים</strong><p>משלבים בשגרה מפגש עם חברים, קריאה, משחק, יצירה או למידה, לפי ההעדפה האישית.</p></li><li><strong>רושמים דוגמאות לשינויים</strong><p>אם קשה יותר לעקוב אחר תורים, להתמצא במקום מוכר או לנהל משימות רגילות, רושמים מתי זה קרה ומשתפים את הצוות המטפל.</p></li></ul></section>
+        <section class="checklist">
+          <h2>רשימת בדיקה</h2>
+          <p class="check-note">אפשר לסמן את מה שכבר עשיתם. הסימונים נשמרים בדפדפן הזה, כשהשמירה זמינה.</p>
+          <div class="check-items"><label><input type="checkbox" name="memory-1"><span>קבעתי מקום קבוע לחפצים חשובים.</span></label><label><input type="checkbox" name="memory-2"><span>בחרתי דרך נוחה לזכור תורים ומשימות.</span></label><label><input type="checkbox" name="memory-3"><span>אני יודע או יודעת למי לפנות אם מופיע שינוי בזיכרון.</span></label></div>
+        </section>
+        <section class="help"><h2>מתי לפנות לעזרה</h2><p>אם מופיע בלבול חדש ופתאומי, יש לפנות מיד להערכה רפואית.</p></section>
+        <section class="sources"><h2>מקורות מקצועיים</h2><ul><li><a href="https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/dementia-and-alzheimer/cognitive-decline-vs-dementia/">משרד הבריאות – ההבדל בין ירידה קוגניטיבית ודמנציה</a></li><li><a href="https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/delirium/">משרד הבריאות – דליריום ובלבול חריף בגיל השלישי</a></li></ul></section>
+      </div>
+    </article>
+    <article class="guide" id="independence" aria-labelledby="independence-title">
+      <div class="guide-heading">
+        <a class="back-link" href="#guides">לכל ההדרכות</a>
+        <span class="topic-icon aqua"><svg aria-hidden="true" width="24" height="24"><use href="#icon-move"></use></svg></span>
+        <h1 tabindex="-1" id="independence-title">שמירה על עצמאות</h1>
+        <p>פעילות שמתאימה לכם והתאמות קטנות בבית יכולות לעזור לכם להמשיך בשגרה ובפעילויות שחשובות לכם.</p>
+        <p class="guide-date">עודכן ב־<time datetime="2026-11-25">25 בנובמבר 2026</time></p>
+        <div class="guide-actions" hidden>
+          <button type="button" data-print><svg aria-hidden="true" width="24" height="24"><use href="#icon-print"></use></svg> הדפסה</button>
+          <a data-whatsapp href="https://wa.me/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="24" height="24"><use href="#icon-share"></use></svg> שיתוף בוואטסאפ</a>
+          <button type="button" data-copy><svg aria-hidden="true" width="24" height="24"><use href="#icon-link"></use></svg> העתקת קישור</button>
+          <p class="copy-status" role="status"></p>
+        </div>
+      </div>
+      <div class="guide-content">
+        <section><h2>מה אפשר לעשות</h2><ul class="steps"><li><strong>בוחרים מטרה מהיום־יום</strong><p>בוחרים פעולה משמעותית כמו הכנת ארוחת בוקר, הליכה קצרה או מפגש עם חברים, וחושבים מה יקל עליכם להמשיך בה.</p></li><li><strong>משלבים תנועה בהדרגה</strong><p>מתחילים בפעילות קלה לפי היכולת. אם קיים קושי בניידות או חשש מנפילה, כדאי לבקש הדרכה לגבי תרגילי כוח ושיווי משקל.</p></li><li><strong>מתאימים את הסביבה ואת העזרה</strong><p>מניחים חפצים שימושיים בגובה נוח. בני משפחה יכולים לשאול איזה חלק מהפעולה האדם מעדיף לבצע בעצמו ובאיזה חלק הוא רוצה עזרה.</p></li></ul></section>
+        <section class="checklist">
+          <h2>רשימת בדיקה</h2>
+          <p class="check-note">אפשר לסמן את מה שכבר עשיתם. הסימונים נשמרים בדפדפן הזה, כשהשמירה זמינה.</p>
+          <div class="check-items"><label><input type="checkbox" name="independence-1"><span>בחרתי פעילות יום־יומית שחשוב לי להמשיך בה.</span></label><label><input type="checkbox" name="independence-2"><span>שמתי חפצים שימושיים במקום שקל להגיע אליו.</span></label><label><input type="checkbox" name="independence-3"><span>שוחחתי עם אדם קרוב על סוג העזרה שמתאים לי.</span></label></div>
+        </section>
+        <section class="help"><h2>מתי לפנות לעזרה</h2><p>אם פעולות שביצעתם בקלות נהיו קשות יותר, פנו לצוות המטפל. אפשר לברר מה השתנה והאם הערכה תפקודית או שיקום יכולים לעזור.</p></section>
+        <section class="sources"><h2>מקורות מקצועיים</h2><ul><li><a href="https://me.health.gov.il/older-adult/keep-me-healthy/healthy-lifestyle/staying-active/maintaining-function/">משרד הבריאות – שימור תפקוד</a></li><li><a href="https://me.health.gov.il/older-adult/keep-me-healthy/healthy-lifestyle/physical-exercise/physical-activity/">משרד הבריאות – פעילות גופנית בגיל המבוגר</a></li></ul></section>
+      </div>
+    </article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner">
+    <a href="#home" class="brand"><span class="brand-mark"><svg aria-hidden="true" width="24" height="24"><use href="#icon-brand"></use></svg></span><span>מזדקנים בטוב עם ראניה</span></a>
+    <p>ההדרכות מיועדות למידע כללי. להמלצה אישית פנו לצוות המטפל.</p>
+  </div></footer>
+  <noscript><style>.guide-view .guide { margin-block: 3rem; }</style></noscript>
+</body>
+</html>
